@@ -20,7 +20,7 @@ os.makedirs(PROCESSED_FOLDER, exist_ok=True)
 os.makedirs(TEXT_FOLDER, exist_ok=True)
 
 model_paths = {
-    'best_fruit': YOLO('./model/best_fruit_v25.pt'),
+    'best_fruit': YOLO('./model/best_fruit_v27.pt'),
     'best_v2': YOLO('./model/best_v2.pt')
 }
 
